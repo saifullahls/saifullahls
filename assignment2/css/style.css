@@ -1,4 +1,4 @@
-/*basic style*/
+
     * {
         box-sizing: border-box;
     }
@@ -10,7 +10,7 @@
     h1 {
        margin-bottom: 15px;
     text-align: center;
-    color: red;
+    color: black;
     font-size: 50px;
     }
 
@@ -98,8 +98,6 @@
             width: 33.33%;
         }
     }
-
-    /*tablet version*/
     @media (min-width: 768px) and (max-width: 991px) {
         .colmn-md-6 {
             float: left;
@@ -115,8 +113,6 @@
             margin-right: auto;
         }
     }
-
-    /*mobile version*/
     @media (max-width: 767px) {
         .colmn-sm-12 {
             float: left;
